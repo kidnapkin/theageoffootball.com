@@ -15,7 +15,7 @@
   }
 
   function childtheme_formats() {
-    add_theme_support( 'post-formats', array( 'gallery' ) );
+    add_theme_support( 'post-formats', array( 'gallery', 'aside' ) );
   }
 
   function gallery_format_content( $pages, $post ) {
