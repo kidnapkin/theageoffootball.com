@@ -1,0 +1,44 @@
+/*
+ Theme Name:   ColorMag Pro Child Theme
+ Theme URI:    https://www.wpbeginner.com/
+ Description:  A ColorMag Pro child theme 
+ Author:       Eugene Domotenko
+ Author URI:   https://github.com/kidnapkin
+ Template:     colormag-pro
+ Version:      1.0.0
+*/
+ 
+@import url("../colormag-pro/style.css");
+
+.gallery-format-item {
+  padding: 0;
+  list-style: none;
+  margin: 22px 0;
+  text-align: left;
+  position: relative;
+  padding-left: 30px;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333;
+}
+
+.gallery-format-item::before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 1px;
+  background: #ccc;
+  left: 0;
+}
+
+.gallery-format-num {
+  font-size: 24px;
+  position: absolute;
+  font-weight: 700;
+  top: 0;
+  left: 0;
+  text-align: left;
+  width: 30px;
+  background: #fff;
+  padding-bottom: 7px;
+}
